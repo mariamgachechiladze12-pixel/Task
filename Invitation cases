@@ -1,0 +1,153 @@
+# Negative Test Case 6: Creating Invitation With Invalid Event Time
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter in Event time “90:00” (input with type='time')
+9.  Click Create Invitation
+Expected Result: Invitation should not be created. Error or validation message for invalid event time should be displayed.
+
+## Negative Test Case 1: Creating Invitation Without Event Title and Event Date
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Click Create Invitation
+Expected Result: Invitation should not be created. Error or validation message for missing event title and event date should be displayed.
+
+## Negative Test Case 2: Creating Invitation With Invalid Event Title
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “%/@” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2025” (input with type='date')
+10. Click Create Invitation
+Expected Result: Invitation should not be created. Error or validation message for invalid event title should be displayed.
+
+## Negative Test Case 3: Creating Invitation With Past Event Date
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2024” (input with type='date')
+10. Click Create Invitation
+Expected Result: Invitation should not be created. Error or validation message for past event date should be displayed.
+
+## Negative Test Case 4: Creating Invitation Without Event Title
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Date “17.10.2025” (input with type='date')
+9.  Click Create Invitation
+Expected Result: Invitation should not be created. Error or validation message for missing event title should be displayed.
+
+## Negative Test Case 5: Creating Invitation Without Event Date
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Click Create Invitation
+Expected Result: Invitation should not be created. Error or validation message for missing event date should be displayed.
+
+# Positive Test Case 6: Creating Invitation with RSVP Option
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2025” (input with type='date')
+10. Check Allow guests to RSVP Button (input with type='checkbox' or button labeled 'RSVP')
+11. Click Create Invitation
+
+# Positive Test Case 5: Creating Invitation with Event Message
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2025” (input with type='date')
+10. Enter Event Message – “Welcome” (input with placeholder='მესიჯი')
+11. Click Create Invitation
+
+# Positive Test Case 4: Creating Invitation with Location
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2025” (input with type='date')
+10. Enter Location – “Tbilisi” (input with placeholder='მდებარეობა')
+11. Click Create Invitation
+
+# Positive Test Case 3: Creating Invitation with Multiple Event Times
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2025” (input with type='date')
+10. Check Multiple Event times button
+11. Click add time
+12. Enter Event Type Description – “1-st Event”
+13. Enter in //div[@class='flex-1']//input[@type='time']  - “15:00”
+14. Click Create Invitation
+
+
+# Positive Test Case 1: Creating Invitation
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2025” (input with type='date')
+10.  Click Create Invitation
+
+# Positive Test Case 2: Creating Invitation with Time
+1.  Open website invu.ge
+2.  Click Login Button
+3.  Enter email “dressup118@gmail.com”
+4.  Enter Password “1111111111111111111”
+5.  Click Sign In 
+6.  Choose Template
+7.  Click template card with h3 text "Minimal Birthday"
+8.  Enter Event Title “MG Birthday” (input with placeholder='მაგალითად, ემა და ნოას ქორწილი')
+9.  Enter Event Date “17.10.2025” (input with type='date')
+10.  Enter Event Time “14:00:00” (input with type='time')
+11.  Click Create Invitation

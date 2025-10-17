@@ -1,0 +1,121 @@
+# Negative Registration Test Cases
+
+11. Negative Login Test (Empty Password)
+   1. Open website invu.ge
+   2. Click Login Button
+   3. Enter valid email (dressup118@gmail.com)
+   4. Don’t Enter password
+   5. Click Sign in
+   6. Validate Sign in not successfully
+# Negative Registration Test Cases
+
+10. Negative Login Test (Invalid Email)
+   1. Open website invu.ge
+   2. Click Login Button
+   3. Enter invalid email (example@)
+   4. Click Sign in
+   5. Validate Sign in not successfully
+# Negative Registration Test Cases
+
+9. Negative Login Test (Empty Fields)
+   1. Open website invu.ge
+   2. Click Login Button
+   3. Submit without filling any fields
+   4. Validate Sign in not successfully
+# Positive Registration Test Cases
+
+3. Positive Google Login Test
+   1. Open website invu.ge
+   2. Click Login Button
+   3. Click Google login button
+   4. Authorize with valid email
+   5. Validate Logged in successfully
+# Negative Registration Test Cases
+
+8. Negative Google Login Test (Invalid Email)
+   1. Open website invu.ge
+      2. Click Sign Up Button
+   3. Click Google login button
+   4. Authorize with invalid email (example.@com)
+   5.Validate Signing up not successfully
+# Negative Registration Test Cases
+
+7. Negative Registration Test (Duplicate Email)
+   1. Open website invu.ge
+    2. Click Sign Up Button
+   3. Register with an email once successfully (Email - Email@gmail.com, Password - "Password123")
+   4. Attempt registration with same email
+   5. Validate Signing up not successfully
+# Negative Registration Test Cases
+
+6. Negative Registration Test (Invalid Last Name)
+   1. Open website invu.ge
+    2. Click Sign In Button
+   3. Enter Last name with invalid characters ("@")
+   4. Fill other fields validly (First Name – Mariam, Email - Email@gmail.com, Password - "Password123", Confirmation Password - "Password123")
+   5. Click Create Account
+   6. Validate Signing in not successfully
+# Negative Registration Test Cases
+
+5. Negative Registration Test (Invalid First Name)
+   1. Open website invu.ge
+      2. Click Sign Up Button
+   3. Enter First name with invalid characters ("@")
+   4. Fill other fields validly (Email - Email@gmail.com, Password - "Password123", Confirmation Password - "Password123")
+   5. Click Create Account
+   6. Validate Signing up not successfully
+# Negative Registration Test Cases
+
+4. Negative Registration Test (Short Password)
+   1. Open website invu.ge
+      2. Click Sign Up Button
+   3. Enter Email ("Email@gmail.com")
+   4. Enter password shorter than 6 characters ("Word")
+   5. Confirm Password: ("Word")
+   6. Click Create Account
+   7. Validate Signing up not successfully
+# Negative Registration Test Cases
+
+3. Negative Registration Test (Password Mismatch)
+   1. Open website invu.ge
+      2. Click Sign Up Button
+   3. Enter Email ("Email@gmail.com")
+   4. Enter Password: "Password123"
+   5. Confirm Password: "Password12"
+   6. Click Create Account
+   7. Validate Signing up not successfully
+# Negative Registration Test Cases
+
+2. Negative Login Test (Invalid Email)
+   1. Open website invu.ge
+      2. Click Sign Up Button
+   3. Enter invalid email (example.@com)
+   4. Fill other fields validly
+   5. Click Create Account
+   6. Validate Signing up not successfully
+# Positive Registration Test Cases
+
+1. Positive Login Test
+   1. Open website invu.ge
+      2. Click Sign Up Button
+   3. Enter email “example@gmail.com”
+   4. Enter Password “1111111111111111111”
+   5. Enter Confirmation Password “1111111111111111111”
+   6. Click Create Account
+   7. Validate Signing up successfully
+
+
+2. Positive Google Login Test
+   1. Open website invu.ge
+   2. Click Sign Up Button
+   3. Click Continue with Google
+   4. Authorize with valid email
+   5. Validate Signing up successfully
+
+# Negative Registration Test Cases
+
+1. Negative Login Test (Empty Fields)
+    1. Open website invu.ge
+      2. Click Sign Up Button
+    3. Submit without filling any fields
+    4. Validate Signing up not successfully
